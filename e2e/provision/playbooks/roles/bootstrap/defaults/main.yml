@@ -44,7 +44,7 @@ gitea:
       - gitea
   kpt:
     packages:
-      - repo_uri: "https://github.com/boanlab/nephio-catalog.git"
+      - repo_uri: "https://github.com/nephio-project/catalog.git"
         pkg: distros/sandbox/gitea
         version: "{{ nephio_catalog_revision }}"
         async: 780
@@ -114,7 +114,7 @@ metallb:
         version: "{{ nephio_catalog_revision }}"
         async: 1020
         poll: 5
-      - repo_uri: "https://github.com/boanlab/nephio-catalog.git"
+      - repo_uri: "https://github.com/nephio-project/catalog.git"
         pkg: distros/sandbox/metallb-sandbox-config
         version: "{{ nephio_catalog_revision }}"
         async: 660
